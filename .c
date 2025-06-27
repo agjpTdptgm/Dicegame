@@ -14,5 +14,9 @@ printf("Die %d: %d",++i,n1);
 printf("Die %d: %d",++i,n2);
 printf("Total value: %d",n1+n2);
 
+char name[10];
+prinf("Waht is your name?\n>");
+scanf("%s",name);
+printf("Hellow, %s",name);
   
 }
