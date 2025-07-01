@@ -18,5 +18,5 @@ char name[10];
 prinf("Waht is your name?\n>");
 scanf("%s",name);
 printf("Hellow, %s",name);
-  
+return 0;
 }
