@@ -13,9 +13,6 @@ printf("Rolling dice...");
 printf("Die %d: %d",++i,n1);
 printf("Die %d: %d",++i,n2);
 printf("Total value: %d",n1+n2);
-if(n1+n2>=8)
-printf("You won\n");
-else
-printf("You lost\n")
-  
+
+return 0;
 }
