@@ -17,6 +17,6 @@ printf("Total value: %d",n1+n2);
 char name[10];
 prinf("Waht is your name?\n>");
 scanf("%s",name);
-printf("Hellow, %s",name);
+printf("Hellow, %s!",name);
 return 0;
 }
