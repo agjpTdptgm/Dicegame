@@ -14,10 +14,11 @@ printf("Die %d: %d",++i,n1);
 printf("Die %d: %d",++i,n2);
 printf("Total value: %d",n1+n2);
 
-if(n1+n2>=8)
-printf("You won\n");
-else
-("You lost\n");
+char name[10];
+printf("What is your name?\n>");
+scnaf("%s",name);
+printf("Hello, $s!",name);
+
 
 return 0;
 }
